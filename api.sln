@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "zrp", "zrp", "{E99BF109-D0AC-4CC8-99A7-A0CCC55B9162}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zwoo.Api.ZRP", "zrp\Zwoo.Api.ZRP\Zwoo.Api.ZRP.csproj", "{BFF5D3D2-BFDA-4394-9C85-992C22FE7701}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFF5D3D2-BFDA-4394-9C85-992C22FE7701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF5D3D2-BFDA-4394-9C85-992C22FE7701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF5D3D2-BFDA-4394-9C85-992C22FE7701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF5D3D2-BFDA-4394-9C85-992C22FE7701}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFF5D3D2-BFDA-4394-9C85-992C22FE7701} = {E99BF109-D0AC-4CC8-99A7-A0CCC55B9162}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {673930AB-F0D1-4342-A7F9-A9088D204D19}
+	EndGlobalSection
+EndGlobal
