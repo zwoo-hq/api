@@ -1,0 +1,47 @@
+{
+  "name": "@zwoo/api-zrp",
+  "version": "0.0.0",
+  "description": "A ZRP implementation in TypeScript.",
+  "author": "Fabian Kachlock",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwoo-hq/api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zwoo-hq/api/issues"
+  },
+  "homepage": "https://github.com/zwoo-hq/api/blob/main/README.md",
+  "keywords": [
+    "zwoo",
+    "zwoo-bot",
+    "zrp"
+  ],
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./context.d.ts": "./src/context.d.ts"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "unbuild",
+    "dev": "unbuild --stub",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm build"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.4",
+    "unbuild": "^2.0.0"
+  },
+  "packageManager": "pnpm@9.12.0+sha256.a61b67ff6cc97af864564f4442556c22a04f2e5a7714fbee76a1011361d9b726"
+}
