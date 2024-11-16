@@ -47,7 +47,7 @@ export enum ZRPCode {
   GetPileTop = 314,
   SendPileTop = 315,
   GetPlayerDecision = 316,
-  ReceiveDecision = 317,
+  SendPlayerDecision = 317,
   PlayerWon = 399,
   GeneralError = 400,
   MessageTooLongError = 401,

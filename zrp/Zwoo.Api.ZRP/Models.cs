@@ -46,14 +46,14 @@ public readonly record struct LeaveEvent(); // empty
 /// </summary>
 public readonly record struct GetLobbyEvent(); // empty
 
-/// <see cref="GetLobbyNotification"/>
-public readonly record struct GetLobby_PlayerDTO(long Id, string Username, ZRPRole Role, ZRPPlayerState State, double Score);
+/// <see cref="SendLobbyNotification"/>
+public readonly record struct SendLobby_PlayerDTO(long Id, string Username, ZRPRole Role, ZRPPlayerState State, double Score);
 
 /// <summary>
 /// ZRPCode: 109
 /// @link 108
 /// </summary>
-public readonly record struct GetLobbyNotification(GetLobby_PlayerDTO[] Players);
+public readonly record struct SendLobbyNotification(SendLobby_PlayerDTO[] Players);
 
 /// <summary>
 /// ZRPCode: 110
@@ -142,7 +142,7 @@ public readonly record struct StartGameEvent(); // empty
 
 /// <see cref="CreateBotEvent" />
 /// <see cref="UpdateBotEvent" />
-/// <see cref="AllBots_BotDTO" />
+/// <see cref="SendBots_BotDTO" />
 public readonly record struct BotConfigDTO(int Type);
 
 /// <summary>
@@ -175,13 +175,13 @@ public readonly record struct DeleteBotEvent(long Id);
 /// </summary>
 public readonly record struct GetBotsEvent();
 
-/// <see cref="AllBotsNotification" />
-public readonly record struct AllBots_BotDTO(long Id, string Username, BotConfigDTO Config, double Score);
+/// <see cref="SendBotsNotification" />
+public readonly record struct SendBots_BotDTO(long Id, string Username, BotConfigDTO Config, double Score);
 
 /// <summary>
 /// ZRPCode: 237
 /// </summary>
-public readonly record struct AllBotsNotification(AllBots_BotDTO[] Bots);
+public readonly record struct SendBotsNotification(SendBots_BotDTO[] Bots);
 
 /// <summary>
 /// ZRPCode: 300
@@ -309,6 +309,11 @@ public readonly record struct PlayerWonNotification(
 /// ZRPCode: 400
 /// </summary>
 public readonly record struct Error(int Code, string Message);
+
+/// <summary>
+/// ZRPCode: 401
+/// </summary>
+public readonly record struct MessageTooLongError(int Code, string Message);
 
 /// <summary>
 /// ZRPCode: 420

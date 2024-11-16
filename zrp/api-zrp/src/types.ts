@@ -128,7 +128,7 @@ export type ZRPPayloadMap = {
   [ZRPCode.GetPileTop]: GetPileTopEvent;
   [ZRPCode.SendPileTop]: SendPileTopNotification;
   [ZRPCode.GetPlayerDecision]: GetPlayerDecisionNotification;
-  [ZRPCode.ReceiveDecision]: PlayerDecisionEvent;
+  [ZRPCode.SendPlayerDecision]: PlayerDecisionEvent;
   [ZRPCode.PlayerWon]: PlayerWonNotification;
   // Errors
   [ZRPCode.GeneralError]: Error;

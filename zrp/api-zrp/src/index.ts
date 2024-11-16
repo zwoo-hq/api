@@ -11,3 +11,5 @@ export { ZRPPlayerState } from "./playerState";
 export { ZRPRole } from "./role";
 export { GameSettingsType } from "./settings";
 export type { ZRPMessage, ZRPPayload, ZRPPayloadMap } from "./types";
+
+export const ZRP_VERSION = "5.0.0";
