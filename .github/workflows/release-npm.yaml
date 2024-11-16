@@ -8,6 +8,9 @@ jobs:
   zrp:
     runs-on: ubuntu-latest
     if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/@zwoo/api-zrp@v')
+    permissions:
+      contents: read
+      id-token: write
     steps:
       - uses: actions/checkout@v4
       # Setup .npmrc file to publish to npm
