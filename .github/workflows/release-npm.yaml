@@ -2,7 +2,7 @@ name: NPM Release
 on:
   push:
     tags:
-      - "@zwoo/api.zrp@v*"
+      - "@zwoo/api-zrp@v*"
 
 jobs:
   zrp:
