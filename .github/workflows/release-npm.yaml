@@ -16,6 +16,7 @@ jobs:
           node-version: "20.x"
           registry-url: "https://registry.npmjs.org"
       - run: corepack enable
+      - run: pnpm
       - run: pnpm build
         working-directory: zrp/api-zrp
       - run: npm publish --provenance --access public
