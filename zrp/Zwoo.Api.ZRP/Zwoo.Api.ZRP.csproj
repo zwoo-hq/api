@@ -4,6 +4,22 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Version>0.0.1</Version>
+    <PackageId>Zwoo.Api.ZRP</PackageId>
+    <RootNamespace>Zwoo.Api.ZRP</RootNamespace>
+
+    <Authors>Fabian Kachlock</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Description>A implementation of the zwoo request protocol</Description>
+    <Copyright>Fabian Kachlock 2024</Copyright>
+    <PackageProjectUrl>
+      https://github.com/zwoo-hq/api/tree/main/zrp/Zwoo.Api.ZRP</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/zwoo-hq/api.git</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="./README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
 
 </Project>
