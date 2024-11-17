@@ -61,6 +61,7 @@ namespace Zwoo.Api.ZRP;
 [JsonSerializable(typeof(PlayerWon_PlayerSummaryDTO))]
 [JsonSerializable(typeof(PlayerWonNotification))]
 [JsonSerializable(typeof(Error))]
+[JsonSerializable(typeof(MessageTooLongError))]
 [JsonSerializable(typeof(AccessDeniedError))]
 [JsonSerializable(typeof(LobbyFullError))]
 [JsonSerializable(typeof(BotNameExistsError))]
