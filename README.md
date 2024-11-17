@@ -15,5 +15,17 @@ Available implementations:
 - `@zwoo/api-zrp`: A Typescript/Javascript implementation of the ZRP protocol.
 - `Zwoo.Api.ZRP`: A C# implementation of the ZRP protocol.
 
-> ![NOTE]
+> [!NOTE]
 > Since there is no difference between the protocol usage on the client and server side, these implementations can be used on both sides.
+
+---
+
+License: [MIT](./LICENSE)
+
+Copyright © 2024-present Fabian Kachlock
+
+---
+
+ZWOO ist eine Marke der IGD 2.0 UG (haftungsbeschränkt)
+
+Impressum/Imprint: https://zwoo.igd20.de/imprint
