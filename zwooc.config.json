@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/zwoo-hq/zwooc/main/zwooc.schema.json",
+  "zrp-ts": {
+    "$adapter": "custom",
+    "$dir": "zrp/api-zrp",
+    "zrp-ts": {
+      "build": "pnpm build"
+    }
+  },
+  "zrp-cs": {
+    "$adapter": "dotnet",
+    "$dir": "zrp/Zwoo.Api.ZRP",
+    "zrp-cs": {
+      "project": "Zwoo.Api.ZRP.csproj"
+    }
+  }
+}

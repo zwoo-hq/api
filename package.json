@@ -1,13 +1,9 @@
 {
-  "name": "api",
+  "name": "api-monorepo",
   "version": "0.0.0",
   "description": "A collection of zwoo API implementations.",
   "private": true,
-  "scripts": {
-    "build": "pnpm -r build",
-    "publish": "pnpm -r publish"
-  },
   "keywords": [],
   "license": "MIT",
-  "packageManager": "pnpm@9.12.0+sha256.a61b67ff6cc97af864564f4442556c22a04f2e5a7714fbee76a1011361d9b726"
+  "packageManager": "pnpm@9.13.2"
 }
