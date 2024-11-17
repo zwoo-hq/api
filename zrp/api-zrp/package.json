@@ -1,6 +1,6 @@
 {
   "name": "@zwoo/api-zrp",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A ZRP implementation in TypeScript.",
   "author": "Fabian Kachlock",
   "repository": {
